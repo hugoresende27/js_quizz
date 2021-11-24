@@ -57,7 +57,9 @@ body
     cursor: pointer;
     width: fit-content;
 }
-
+.escolhas ul li {
+    list-style-type: none;
+}
 .main button {
     background-color: var(--purple-cor);
     position: absolute;

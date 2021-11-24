@@ -15,15 +15,19 @@
 
 </head>
 <body>
-    <div class="main">
+    <div class="main" id="main">
         <div class="pergunta">
             <h1 id="pergunta">Pergunta ?</h1>
         </div>
+
+   
         <div class="escolhas">
-            <label for="a" id="a_texto"> <input type="radio" name="res" id="a"> resposta 1</label>
-            <label for="b" id="b_texto"> <input type="radio" name="res" id="b"> resposta 2</label>
-            <label for="c" id="c_texto"> <input type="radio" name="res" id="c"> resposta 3</label>
-            <label for="d" id="d_texto"> <input type="radio" name="res" id="d"> resposta 4</label>
+            <ul>
+            <li><input type="radio" name="res" id="a" class="res"> <label for="a" id="a_texto">  resposta 1</label></li>
+            <li><input type="radio" name="res" id="b" class="res"> <label for="b" id="b_texto">  resposta 2</label></li>
+            <li><input type="radio" name="res" id="c" class="res"> <label for="c" id="c_texto">  resposta 3</label></li>
+            <li><input type="radio" name="res" id="d" class="res"> <label for="d" id="d_texto">  resposta 4</label></li>
+            </ul>
         </div>
         <button type="submit" id="sub">Responder</button>
     </div>
@@ -36,6 +40,7 @@
      </footer >
 
      <script src='script.js'></script>
+     
 </body>
 
 </html>
