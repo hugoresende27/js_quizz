@@ -46,7 +46,39 @@ const quizDados=[
         c:"É um sistema operacional",
         d:"Componenete do pacote office",
         certa:"c"
-    }
+    },
+    {
+        pergunta: "Which language runs in a web browser?",
+        a: "Java",
+        b: "C",
+        c: "Python",
+        d: "JavaScript",
+        certa: "d",
+    },
+    {
+        pergunta: "What does CSS stand for?",
+        a: "Central Style Sheets",
+        b: "Cascading Style Sheets",
+        c: "Cascading Simple Sheets",
+        d: "Cars SUVs Sailboats",
+        certa: "b",
+    },
+    {
+        pergunta: "What does HTML stand for?",
+        a: "Hypertext Markup Language",
+        b: "Hypertext Markdown Language",
+        c: "Hyperloop Machine Language",
+        d: "Helicopters Terminals Motorboats Lamborginis",
+        certa: "a",
+    },
+    {
+        pergunta: "What year was JavaScript launched?",
+        a: "1996",
+        b: "1995",
+        c: "1994",
+        d: "none of the above",
+        certa: "b",
+    },
     
 ]
 
